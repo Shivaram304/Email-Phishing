@@ -1,0 +1,197 @@
+// EMAIL HEADER
+
+
+Delivered-To: shivarammore68@gmail.com
+Received: by 2002:a05:6f02:6484:b0:8b:1a97:4a76 with SMTP id q4csp215124rce;
+        Thu, 19 Jun 2025 03:40:47 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IHcIOnXsmyPM2Bt6i8bcIijOexbVaU6vyzD/n6LM3PNhp1O5DdtCILOcZIz7zID9Jc660wj
+X-Received: by 2002:a05:6402:2755:b0:608:64ee:e7ed with SMTP id 4fb4d7f45d1cf-608d00afdb7mr18238995a12.0.1750329647467;
+        Thu, 19 Jun 2025 03:40:47 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1750329647; cv=none;
+        d=google.com; s=arc-20240605;
+        b=VqHkmv/8H64Gw0Xb7uNtwnStDdhsu2NyCpkUopozyH54SXDFAzm7J0tAwdEs4Njr8M
+         ObdrZ9kJpHd52D5P7kAcg4Szf8/Rxs9NNMGTLI09SQO1e3i7to7QqgsJuId+Qhg9J/nH
+         Sv6Rbbuw4pJhClp2+nKVJzHdCeZBZ25VG0gNJA1i+tYL/9Sa9Ikdx5YsvTszhzdqJacA
+         Irmkk3APvHOBI4uY3B4p4oazrh2ZYoZMEuFo8+Numv7GyH+2XQTC1nO8ilhvCHsyMLs5
+         zVPxkp/JZ1zR3iIWQrAhLIL+LU5LhhroL2WeRR8NRn/cczT9iP0lxkA1A5nEoNmQvKWT
+         wZbA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=mime-version:feedback-id:list-unsubscribe-post:list-unsubscribe
+         :reply-to:to:from:subject:message-id:date:dkim-signature;
+        bh=QPLK7vwuc7uUmDte8HmNjZ/C4KaFQaNifbNaSo34S8s=;
+        fh=vRrTlt0nPP+4sOjdFtqBiNK65RTXhVOJxkEo0h+PVd8=;
+        b=foFjGVf+bitUmfc7mAlO+9hQ6dPTUPs+1n5zr8cUblEknYVhSwzKwF8aWvgxWeLRr5
+         p4DkGxGm3XSB7amQE+LftCNXdZKk3Pyj55Q2N9TtV0H7Gpa4hlEJsnS8fS9GGp7dyNui
+         jzaxWnCN40BgwgXx0ibW0F/GZnfGjxU5IJezGe+cX/GFgREDQmxEaqMT3CF5Wwk/4E7E
+         P/UrHdoY0KAxVz8s5N4Kqe0METfjTNwIaUC2qId8WO0e8E6DOL95AN3pttWEBaO/RqQt
+         ACGyoEA0LQwe0Dl5gXZvoGXkBxx5Qvppwae6vNpUCMYpJQpfVDw5WRAQwkRgbhN1FZIK
+         c3vQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@skill.getujobs.com header.s=updates header.b=UjuLCrzw;
+       spf=pass (google.com: domain of bounce.cli23099-1264667-1264667-2272902958-7761-25746-44836-66-p2061@skill.getujobs.com designates 103.147.104.232 as permitted sender) smtp.mailfrom=bounce.cli23099-1264667-1264667-2272902958-7761-25746-44836-66-p2061@skill.getujobs.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=skill.getujobs.com
+Return-Path: <bounce.cli23099-1264667-1264667-2272902958-7761-25746-44836-66-p2061@skill.getujobs.com>
+Received: from mail.hx1003.mlrctk.com (mail.hx1003.mlrctk.com. [103.147.104.232])
+        by mx.google.com with ESMTPS id 4fb4d7f45d1cf-608b4896830si11393489a12.68.2025.06.19.03.40.47
+        for <shivarammore68@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-CHACHA20-POLY1305 bits=256/256);
+        Thu, 19 Jun 2025 03:40:47 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce.cli23099-1264667-1264667-2272902958-7761-25746-44836-66-p2061@skill.getujobs.com designates 103.147.104.232 as permitted sender) client-ip=103.147.104.232;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@skill.getujobs.com header.s=updates header.b=UjuLCrzw;
+       spf=pass (google.com: domain of bounce.cli23099-1264667-1264667-2272902958-7761-25746-44836-66-p2061@skill.getujobs.com designates 103.147.104.232 as permitted sender) smtp.mailfrom=bounce.cli23099-1264667-1264667-2272902958-7761-25746-44836-66-p2061@skill.getujobs.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=skill.getujobs.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; s=updates; d=skill.getujobs.com; t=1750329066; h=subject:from:to; bh=QPLK7vwuc7uUmDte8HmNjZ/C4KaFQaNifbNaSo34S8s=; b=UjuLCrzw7jM1UzDMRV0t7UnLCYmGcd9n/OG+red02qzpgro0WRxqvChVTPHY9po4jwT8V6 /iu09isHlp3gVVqVmwUx8HHWp80Ov62gIZMqZVrQkbpMLbsOlTSdLAyJPKSZbh0pJKwffg t+UbW4TU6hxAi2n+0APcnptmb6xO4BKuzNdIq/4LzrJqzuqsDrymH7AS3d9HzIcKSkQ5jA agAP7JkPr4u3WODpX01EpGm94oHkLxsPRbXYknmeM2aUZsvsSpZdf+RjUJTLC0LWYQ/RUp JqecARipjPIkiEnOmqSOxcnCaI1/wd2RtmM21HNWsBnagTi/nJaSVJlOr8xPDg==
+Date: Thu, 19 Jun 2025 10:31:06 +0000
+Message-ID: <1750329066-MjI3MjkwMjk1OC0xMjY0NjY3@skill.getujobs.com>
+Subject: COGNIZANT | Your Application has been processed
+From: WORK FROM HOME <info@skill.getujobs.com>
+To: shivarammore68@gmail.com
+Reply-To: info@skill.getujobs.com
+X-Mailer: mailercloud
+List-Unsubscribe: <https://gutr.getujobs.com/us/sDAzJnscBcxRbSgVwGHMCCHszasJFyMbswEWWxPxHgkMeviDwMCVIYvRbMSaGB>, <mailto:unsub.cli23099-1264667-1264667-2272902958-7761-25746-44836-66-p2061@skill.getujobs.com?subject=unsubscribe>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-campaignid: 1264667
+X-SentFromServer: 103.147.104.232
+X-Subscriber-ID: 2272902958
+Feedback-ID: 2062:2272902958:23099:skillgetuj
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=d47a03cc4279d6ffb6360d9e7ca00feb31e298be0597ae3c65f1207e1aac
+
+--d47a03cc4279d6ffb6360d9e7ca00feb31e298be0597ae3c65f1207e1aac
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+
+No preview available
+--d47a03cc4279d6ffb6360d9e7ca00feb31e298be0597ae3c65f1207e1aac
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:o=3D"urn:schemas-microso=
+ft-com:office:office"> <head> <meta charset=3D"UTF-8"> <meta content=3D"wid=
+th=3Ddevice-width, initial-scale=3D1" name=3D"viewport"> <meta name=3D"x-ap=
+ple-disable-message-reformatting"> <meta http-equiv=3D"X-UA-Compatible" con=
+tent=3D"IE=3Dedge"> <meta content=3D"telephone=3Dno" name=3D"format-detecti=
+on"> <title>COGNIZANT | Your Application has been processed</title> <!--[if=
+ (mso 16)]> <style type=3D"text/css"> a {text-decoration: none;} </style> <=
+![endif]--> <!--[if gte mso 9]><style>sup { font-size: 100% !important; }</=
+style><![endif]--> <!--[if gte mso 9]> <xml> <o:OfficeDocumentSettings> <o:=
+AllowPNG></o:AllowPNG> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocu=
+mentSettings> </xml> <![endif]--> <style type=3D"text/css">@import url("htt=
+ps://u23099.csd.mlrcld.com/uploads/fonts.css");</style> <style type=3D"text=
+/css"> .rollover:hover .rollover-first {max-height:0px !important;display:n=
+one !important;} .rollover:hover .rollover-second {max-height:none !importa=
+nt;display:block !important;} #outlook a {padding:0;} .ml-button {mso-style=
+-priority:100 !important;text-decoration:none;} a[x-apple-data-detectors] {=
+color:inherit !important;text-decoration:none !important;font-size:inherit =
+!important;font-family:inherit !important;font-weight:inherit !important;li=
+ne-height:inherit !important;} .ml-desk-hidden {display:none;float:left;ove=
+rflow:hidden;width:0;max-height:0;line-height:0;mso-hide:all;} [data-ogsb] =
+.ml-button {border-width:0 !important;padding:10px 20px 10px 20px !importan=
+t;} @media only screen and (max-width:600px) { .st-br {padding-left:10px !i=
+mportant;padding-right:10px !important;} p, ul li, ol li, a {line-height:15=
+0% !important;} h1 {font-size:30px !important;line-height:150% !important;}=
+ h2 {font-size:26px !important;line-height:150% !important;} h3 {font-size:=
+20px !important;line-height:150% !important;} .ml-content-body h1 a {font-s=
+ize:30px !important;} .ml-content-body h2 a {font-size:26px !important;} .m=
+l-content-body h3 a {font-size:20px !important;} .ml-menu td a {font-size:1=
+4px !important;} *[class=3D"gmail-fix"] {display:none !important;} .ml-m-tx=
+t-c, .ml-m-txt-c h1, .ml-m-txt-c h2, .ml-m-txt-c h3 {text-align:center !imp=
+ortant;} .ml-m-txt-r, .ml-m-txt-r h1, .ml-m-txt-r h2, .ml-m-txt-r h3 {text-=
+align:right !important;} .ml-m-txt-l, .ml-m-txt-l h1, .ml-m-txt-l h2, .ml-m=
+-txt-l h3 {text-align:left !important;} .ml-m-txt-r img, .ml-m-txt-c img, .=
+ml-m-txt-l img {display:inline !important;} .ml-button-border {display:bloc=
+k !important;} a.ml-button, button.ml-button {display:block !important;bord=
+er-left-width:0px !important;border-right-width:0px !important;} .ml-adapti=
+ve table, .ml-left, .ml-right {width:100% !important;} .ml-content table, .=
+ml-content {width:100% !important;max-width:600px !important;} .ml-adapt-td=
+ {display:block !important;width:100% !important;} .adapt-img {width:100% !=
+important;height:auto !important;} .ml-m-p0 {padding:0 !important;} .ml-m-p=
+0r {padding-right:0 !important;} .ml-m-p0l {padding-left:0 !important;} .ml=
+-m-p0t {padding-top:0 !important;} .ml-m-p0b {padding-bottom:0 !important;}=
+ .ml-m-p20b {padding-bottom:20px !important;} .ml-mobile-hidden, .ml-hidden=
+ {display:none !important;} tr.ml-desk-hidden, td.ml-desk-hidden, table.ml-=
+desk-hidden {width:auto !important;overflow:visible !important;float:none !=
+important;max-height:inherit !important;line-height:inherit !important;} tr=
+.ml-desk-hidden {display:table-row !important;} table.ml-desk-hidden {displ=
+ay:table !important;} td.ml-desk-menu-hidden {display:table-cell !important=
+;} .ml-menu td {width:1% !important;} table.ml-table-not-adapt, .esd-block-=
+html table {width:auto !important;} table.ml-smedia {display:inline-block !=
+important;} table.ml-smedia td {display:inline-block !important;} .mld-url-=
+block {width:100% !important;} } </style> <!--[if gte mso 12]> <style type=
+=3D"text/css"> .mso-right { padding-left: 20px; } </style> <![endif]--></he=
+ad><body style=3D";width:100%;font-family:arial,&#39;helvetica neue&#39;,he=
+lvetica,sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;=
+padding:0;Margin:0"> <div bgcolor=3D"#F2F6F8" class=3D"ml-wrapper-color" st=
+yle=3D"background-color: #f2f6f8;"><!--[if gte mso 9]> <v:background xmlns:=
+v=3D"urn:schemas-microsoft-com:vml" fill=3D"t"> <v:fill type=3D"tile" color=
+=3D"#f2f6f8"></v:fill> </v:background> <![endif]--><table cellspacing=3D"0"=
+ cellpadding=3D"0" role=3D"presentation" width=3D"100%" bgcolor=3D"#f2f6f8"=
+ class=3D"ml-wrapper" style=3D"mso-table-lspace:0pt;mso-table-rspace:0pt;bo=
+rder-collapse:collapse;border-spacing:0px;padding:0;Margin:0;width:100%;hei=
+ght:100%"><tr><td valign=3D"top" class=3D"mld-email-paddings" style=3D"padd=
+ing:0;Margin:0"><table cellspacing=3D"0" cellpadding=3D"0" role=3D"presenta=
+tion" width=3D"100%" align=3D"center" class=3D"ml-content" style=3D"mso-tab=
+le-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:=
+0px;table-layout:fixed !important;width:100%"><tbody><tr><td align=3D"cente=
+r" style=3D"Margin:0;padding:0px"><table cellspacing=3D"0" cellpadding=3D"0=
+" role=3D"presentation" align=3D"center" width=3D"600" class=3D"ml-content-=
+body" style=3D"mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:co=
+llapse;border-spacing:0px;width:600px"><tbody><tr><td align=3D"left" class=
+=3D"mld-structure" style=3D"Margin:0;padding:20px"><!--[if mso]><table styl=
+e=3D"width:560px" cellpadding=3D"0" cellspacing=3D"0"><tr><![endif]--><!--[=
+if mso]><td style=3D"width:560px" valign=3D"top"><![endif]--><table cellspa=
+cing=3D"0" cellpadding=3D"0" role=3D"presentation" align=3D"left" class=3D"=
+ml-left" style=3D"mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse=
+:collapse;border-spacing:0px;float:left"><tbody><tr class=3D"mld-container"=
+><td align=3D"center" valign=3D"top" class=3D"ml-m-p20b" style=3D"Margin:0;=
+margin:0px;padding:0px;width:560px"><table cellspacing=3D"0" cellpadding=3D=
+"0" role=3D"presentation" width=3D"100%" style=3D"mso-table-lspace:0pt;mso-=
+table-rspace:0pt;border-spacing:0px;padding:0px;border-radius:0px;border-co=
+llapse:collapse"><tr class=3D"mld-element"><td align=3D"left" style=3D"Marg=
+in:0;padding:0px"><p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-te=
+xt-size-adjust:none;mso-line-height-rule:exactly;font-family:arial,&#39;hel=
+vetica neue&#39;,helvetica,sans-serif;line-height:150%;font-size:16px;color=
+:#333333;font-style:normal;font-weight:normal"><strong>WORK FROM HOME</stro=
+ng> OPPORTUNITY<br>=C2=A0</p><p style=3D"Margin:0;-webkit-text-size-adjust:=
+none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:ari=
+al,&#39;helvetica neue&#39;,helvetica,sans-serif;line-height:150%;font-size=
+:16px;color:#333333;font-style:normal;font-weight:normal">Company:<strong> =
+Cognizant</strong><br>Salary: =E2=82=B935,000 -=C2=A0=E2=82=B957,000 per mo=
+nth<br>Location: PAN India (Work from Home)</p><p style=3D"Margin:0;-webkit=
+-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exact=
+ly;font-family:arial,&#39;helvetica neue&#39;,helvetica,sans-serif;line-hei=
+ght:150%;font-size:16px;color:#333333;font-style:normal;font-weight:normal"=
+>=C2=A0</p><p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size=
+-adjust:none;mso-line-height-rule:exactly;font-family:arial,&#39;helvetica =
+neue&#39;,helvetica,sans-serif;line-height:150%;font-size:16px;color:#33333=
+3;font-style:normal;font-weight:normal">Limited Openings -=C2=A0<a target=
+=3D"_blank" style=3D"-webkit-text-size-adjust:none;-ms-text-size-adjust:non=
+e;mso-line-height-rule:exactly;text-decoration:underline;color:#1376c8;font=
+-size:18px;line-height:150%"  href=3D"https://gutr.getujobs.com/links/sDAzJ=
+nscBcxRbSgVwGHMCCHszasJFyMbswEWWxPxHgkMeviDwMCVIYvRbMSaGB/2495705" rel=3D"n=
+ofollow noopener"><strong>Apply Now!</strong></a></p><p style=3D"Margin:0;-=
+webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule=
+:exactly;font-family:arial,&#39;helvetica neue&#39;,helvetica,sans-serif;li=
+ne-height:150%;font-size:16px;color:#333333;font-style:normal;font-weight:n=
+ormal">=C2=A0</p><p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-tex=
+t-size-adjust:none;mso-line-height-rule:exactly;font-family:arial,&#39;helv=
+etica neue&#39;,helvetica,sans-serif;line-height:150%;font-size:16px;color:=
+#333333;font-style:normal;font-weight:normal">=C2=A0</p></td></tr></table><=
+/td></tr></tbody></table><!--[if mso]></td><![endif]--><!--[if mso]></tr></=
+table><![endif]--></td></tr></tbody></table></td></tr></tbody></table></td>=
+</tr></table></div> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0"=
+ width=3D"100%" style=3D"font-family:arial,sans-serif; font-size:12px; colo=
+r:#888888; margin: 20px 0; width: 100%; text-align:center;"> <tr><td style=
+=3D"line-height: 25px;"><p style=3D"font-size:12px; margin: 0;">If you wish=
+ to opt out of all type of emails, click <a style=3D"color: #0096c7;" href=
+=3D"https://gutr.getujobs.com/un/sDAzJnscBcxRbSgVwGHMCCHszasJFyMbswEWWxPxHg=
+kMeviDwMCVIYvRbMSaGB">Unsubscribe</a>.</p></td></tr>    </table><span style=
+=3D"display:none !important;" class=3D"preheader"><img src=3D"https://gutr.=
+getujobs.com/opens/sDAzJnscBcxRbSgVwGHMCCHszasJFyMbswEWWxPxHgkMeviDwMCVIYvR=
+bMSaGB/blank.gif" alt=3D"open track" width=3D"0" height=3D"0" style=3D"disp=
+lay:none !important;" /></span><div style=3D"display:none"><a href=3D"https=
+://gutr.getujobs.com/a/SuajzlKcwvwWXlscxSJAczfy" style=3D"display:none !imp=
+ortant;">.</a></div> </body></html>
+--d47a03cc4279d6ffb6360d9e7ca00feb31e298be0597ae3c65f1207e1aac--
